@@ -1,0 +1,9 @@
+task: create
+host: "http://islandora.traefik.me/"
+username: admin
+nopassword
+input_dir: i8demo_BD
+input_csv: islandora_access_terms.csv
+allow_missing_files: true
+allow_adding_terms: true
+log_json: true
